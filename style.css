@@ -482,6 +482,10 @@ footer p {
     color: #4a4947;
 }
 
+.method-column .icon {
+    cursor: default;
+}
+
 .method-list li::before {
     content: "• ";
     color: #b5af9c;
