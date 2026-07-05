@@ -453,3 +453,40 @@ footer p {
     height: 2rem;
     object-fit: contain;
 }
+
+/* 1. Arranges the 3 methods categories into 3 side-by-side columns */
+.article-container.methods-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    align-items: start;
+    text-align: left;
+}
+
+.method-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.method-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.method-list li::before {
+    content: "• ";
+    color: #000;
+    display: inline-block; 
+    width: 1em;
+}
+
+@media (max-width: 950px) {
+    .article-container.methods-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
