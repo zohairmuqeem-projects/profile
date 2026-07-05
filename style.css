@@ -499,3 +499,7 @@ footer p {
         gap: 1.5rem;
     }
 }
+
+.experience-details-container .icon {
+    cursor: default !important;
+}
