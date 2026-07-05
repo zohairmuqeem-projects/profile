@@ -483,7 +483,7 @@ footer p {
 }
 
 .method-column .icon {
-    cursor: default;
+    cursor: default !important;
 }
 
 .method-list li::before {
