@@ -155,7 +155,7 @@ a:hover {
 
 section {
     padding-top: 4vh;
-    height: 72vh;
+    height: 84vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -329,12 +329,19 @@ section {
 
 /* EDUCATION STUFF */
 
+.education-sub-title {
+    color: #595856;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0rem;
+}
+
 .education-content {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2.5rem;
-    margin-top: 2rem;
+    gap: 1rem;
+    margin-top: 0rem;
 }
 
 .education-logo {
