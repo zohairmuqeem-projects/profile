@@ -466,6 +466,7 @@ footer p {
 .method-column {
     display: flex;
     flex-direction: column;
+    min-width: 12rem;
 }
 
 .method-list {
