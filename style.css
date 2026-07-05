@@ -155,7 +155,7 @@ a:hover {
 
 section {
     padding-top: 4vh;
-    height: 96vh;
+    height: 84vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -232,6 +232,11 @@ section {
 .icon {
     cursor: pointer;
     height: 2rem;
+}
+
+.education-icon {
+    cursor:pointer;
+    height: 6rem;
 }
 
 /* BUTTONS */
@@ -320,6 +325,41 @@ section {
 .section-container {
     gap: 4rem;
     height: 80%;
+}
+
+/* EDUCATION STUFF */
+
+.education-sub-title {
+    color: #595856;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0rem;
+}
+
+.education-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0rem;
+}
+
+.education-logo {
+    width: 250px;
+    height: auto;
+}
+
+.education-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: left;
+}
+
+.education-info p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #595856;
 }
 
 /* EXPERIENCE SECTION */
