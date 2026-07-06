@@ -580,3 +580,10 @@ footer p {
     color: #7a7875;
     margin-bottom: 10px;
 }
+
+.timeline-container:nth-child(odd) {
+    left: 0;
+}
+
+.timeline-container:nth-child(even) {
+    left: 50%;
