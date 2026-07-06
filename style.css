@@ -547,7 +547,7 @@ footer p {
 
 .timeline {
     position: relative;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 40px auto;
 }
 
@@ -555,35 +555,49 @@ footer p {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #eeebe3;
+    background-color: #d4ceb8;
     top: 0;
     bottom: 0;
     left: 50%;
     margin-left: -3px;
 }
 
-.timeline-container {
+.container {
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
     width: 50%;
 }
 
+.container::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    background-color: #ffffff;
+    border: 4px solid #d4ceb8;
+    top: 25px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.left { left: 0; }
+.right { left: 50%; }
+
+.right::after { left: -10px; }
+
 .content {
     padding: 20px;
     background-color: #ffffff;
+    position: relative;
     border-radius: 6px;
+    border: 0.1rem solid #d4ceb8;
 }
 
-.date {
-    font-weight: bold;
-    color: #7a7875;
-    margin-bottom: 10px;
+@media screen and (max-width: 600px) {
+    .timeline::after { left: 31px; }
+    .container { width: 100%; padding-left: 70px; padding-right: 25px; }
+    .container::after { left: 21px; }
+    .right { left: 0%; }
 }
-
-.timeline-container:nth-child(odd) {
-    left: 0;
-}
-
-.timeline-container:nth-child(even) {
-    left: 50%;
