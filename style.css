@@ -548,7 +548,7 @@ footer p {
 .timeline {
     position: relative;
     max-width: 1000px;
-    margin: 40px auto;
+    margin: 40px auto !important;
 }
 
 .timeline::after {
@@ -582,8 +582,8 @@ footer p {
     z-index: 1;
 }
 
-.left { left: 0; }
-.right { left: 50%; }
+.left { left: 0 !important; }
+.right { left: 50% !important; }
 
 .right::after { left: -10px; }
 
@@ -599,5 +599,5 @@ footer p {
     .timeline::after { left: 31px; }
     .container { width: 100%; padding-left: 70px; padding-right: 25px; }
     .container::after { left: 21px; }
-    .right { left: 0%; }
+    .right { left: 0% !important; }
 }
