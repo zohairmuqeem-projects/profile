@@ -381,6 +381,11 @@ section {
     flex-direction: column;
 }
 
+#experience {
+    height: fit-content;
+    min-height: fit-content;
+    padding-bottom: 6rem;
+}
 .article-container {
     display: flex;
     text-align: initial;
