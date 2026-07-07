@@ -332,6 +332,7 @@ section {
 
 .education-content {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 1rem;
@@ -537,7 +538,10 @@ footer p {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
+
+    
 }
+
 .experience-details-container .icon {
     cursor: default !important;
 }
