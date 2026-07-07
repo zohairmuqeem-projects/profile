@@ -307,12 +307,6 @@ section {
     border: 0.1rem solid #d4ceb8;
 }
 
-.arrow {
-    position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
-}
-
 .details-container {
     padding: 1.5rem;
     flex: 1;
@@ -338,6 +332,7 @@ section {
 
 .education-content {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 1rem;
@@ -543,7 +538,10 @@ footer p {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
+
+    
 }
+
 .experience-details-container .icon {
     cursor: default !important;
 }
